@@ -22,7 +22,7 @@ This API is responsible for publishing the means of payment in the queue of Apac
 
 ## Get started
 
-To upload the API in an automated way, I recommend using the repository: [kafka-messaging](https://github.com/WeversonL/kafka-messaging)
+To upload the API in an automated way, use the repository: [kafka-messaging](https://github.com/WeversonL/kafka-messaging)
 
 ## API Endpoints
 
