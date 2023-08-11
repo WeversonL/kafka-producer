@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: payment-producer
+
+  kafka:
+    bootstrap-servers: ${KAFKA_HOST}
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+topic:
+  default-topic: default_topic
+
+server:
+  port: ${SERVER_PORT:8081}
